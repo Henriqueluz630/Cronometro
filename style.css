@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin-top: 16%;
+    background-color: black;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 3%;
+    border-color: transparent;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+button:hover {
+    color: red;
+    background-color: black;
+    border-color: red ;
+}
+
+#cronometro {
+    font-size: 46px;
+    font-family: monospace;
+    color: white;
+}
+
